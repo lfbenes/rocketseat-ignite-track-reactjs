@@ -1,0 +1,27 @@
+I followed this video instructions (https://www.youtube.com/watch?v=CSyEYiG8sFI) and added something else.
+My linux version is Ubuntu 
+I got github ubuntu linux from https://github.com/shiftkey/desktop/releases/tag/release-2.9.3-linux1
+
+// how to update all packages of your system
+sudo apt update
+sudo apt upgrade -y
+
+
+// how to update all packages of your system
+sudo apt-get update // Update is used to resynchronize the package index files from their sources on Ubuntu Linux via the Internet.
+sudo apt-get upgrade -y // Upgrade is used to install the newest versions of all packages currently installed on the Ubuntu system.
+
+
+sudo apt install git -y
+sudo apt autoremove
+
+
+git init
+git config --global user.email "lfbenes@hotmail.com"
+git config --global user.name "Luiz Teixeira"
+git remote -v
+git remote remove 01-github-explorer
+git add -f 01-github-explorer/*
+// publish in a new repository using github desktop
+
+
